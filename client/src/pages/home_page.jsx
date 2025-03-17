@@ -3,6 +3,7 @@ import "./home_page.css";
 import Logo from "../assets/anisave.svg";
 import profilePic from "../assets/profile.png";
 import searchIcon from "../assets/searchIcon.png";
+import Sort from "../assets/sort.png"
 import { useNavigate } from "react-router-dom";
 import ProductCard from "./productCard";
 import Image1 from "../assets/green.jpg";
@@ -37,6 +38,10 @@ function Homepage() {
         <input type="text" id="search" placeholder="Search..." />
         <img src={searchIcon} alt="search" className="searchIcon" />
       </div>
+      {/* Sort Icon */}
+      <button>
+        <img src={Sort} alt="Sort icon" className="sortIcon" />
+      </button>
 
       {/* Products */}
       <div className="Product-container">
