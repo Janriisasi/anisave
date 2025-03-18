@@ -1,10 +1,11 @@
-import { useNavigate } from "react-router-dom";
 import React from "react";
 import "./home_page.css";
-import ProductCard from "./productCard";
-import Navbar from "../component/Navbar";
-import Sort from "../assets/sort.png"
+import Logo from "../assets/anisave.svg";
+import profilePic from "../assets/profile.png";
 import searchIcon from "../assets/searchIcon.png";
+import Sort from "../assets/sort.png"
+import { useNavigate } from "react-router-dom";
+import ProductCard from "./productCard";
 import Image1 from "../assets/green.jpg";
 import Image2 from "../assets/red.jpg";
 import Image3 from "../assets/bellred.jpg";
@@ -15,13 +16,21 @@ function Homepage() {
   const navigateToMarket = () => {
     marketNavigation("/marketData");
   };
- 
 
   return (
     <div className="container">
       {/* Header with navigation */}
       <div className="header">
-      <Navbar/>
+        <div className="logo">
+          <img className="logo" alt="Anisave Logo" src={Logo} />
+        </div>
+        <div className="navbar">
+          <p>Home</p>
+          <p>Categories</p>
+          <p>Farmers</p>
+          <p>Menu</p>
+          <img src={profilePic} alt="Profile" className="profile-icon" />
+        </div>
       </div>
 
       {/* Search bar */}
@@ -29,11 +38,11 @@ function Homepage() {
         <input type="text" id="search" placeholder="Search..." />
         <img src={searchIcon} alt="search" className="searchIcon" />
       </div>
-
-      {/* Sort */}
+      {/* Sort Icon */}
       <button>
         <img src={Sort} alt="Sort icon" className="sortIcon" />
       </button>
+
       {/* Products */}
       <div className="Product-container">
         <p className="product-title">Products</p>
