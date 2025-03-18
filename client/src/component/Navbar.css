@@ -1,0 +1,40 @@
+.logo{
+    margin-right: 17%;
+    margin-left: -15px;
+    height: 75px;
+}
+.navbar {
+    display: flex;
+    position: absolute;
+    gap: 20px; 
+    left: 525px;
+   
+}
+
+.navbar a {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: rgb(51, 187, 39);
+    transition-duration:0.5s;
+    
+    
+}
+
+.profile-icon{
+position: fixed;
+background-color: #fefefe;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+right: 30px;
+top: 8px;
+}
