@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 .header {
     display: flex;
@@ -11,32 +10,7 @@
     left: 0
 }
 
-.logo{
-    margin-right: 17%;
-    margin-left: -15px;
-    height: 95%;
-}
-.navbar {
-    display: flex;
-    gap: 20px; 
-    margin-right: 25%;
-}
 
-.navbar p {
-    margin: 0;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-}
-.profile-icon{
-position: absolute;
-background-color: #fefefe;
-border-radius: 50%;
-width: 60px;
-height: 60px;
-right: 30px;
-bottom: 8px;
-}
 .searchBar{
     margin-top: 45px;
 
@@ -55,11 +29,11 @@ bottom: 8px;
     font-size: 15px;
 }
 .searchIcon{
-    width: 33px;
-    height: 33px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    right: 422px;
-    bottom: 502px;
+    right: 410px;
+    bottom: 503px;
     background-color: #00573C;
     border-radius: 48%;
     padding: 1px; 
@@ -74,80 +48,10 @@ bottom: 8px;
     color: #fefefe;
 
 }
-=======
-
-.header {
-    display: flex;
-    align-items: center; 
-    width: 100%;
-    height: 80px; 
-    background-color: #033a29; 
+.sortIcon{
     position: absolute;
-    top: 0;
-    left: 0
+    top: 190px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
 }
-
-.logo{
-    margin-right: 17%;
-    margin-left: -15px;
-    height: 95%;
-}
-.navbar {
-    display: flex;
-    gap: 20px; 
-    margin-right: 25%;
-}
-
-.navbar p {
-    margin: 0;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-}
-.profile-icon{
-position: absolute;
-background-color: #fefefe;
-border-radius: 50%;
-width: 60px;
-height: 60px;
-right: 30px;
-bottom: 8px;
-}
-.searchBar{
-    margin-top: 45px;
-
-}
-#search{
-    position: absolute;
-    padding: 15px;
-    width: 500px;
-    top: 100px;
-    left: 415px;
-    border-radius: 50px;
-    border-style: none;
-    
-}
-#search::placeholder {
-    font-size: 15px;
-}
-.searchIcon{
-    width: 33px;
-    height: 33px;
-    position: absolute;
-    right: 422px;
-    bottom: 502px;
-    background-color: #00573C;
-    border-radius: 48%;
-    padding: 1px; 
-}
-.Product-container{
-   position: absolute;
-   top: 170px;
-   left: 20px;
-}
-.product-title{
-    font-size: 35px;
-    color: #fefefe;
-
-}
->>>>>>> f81776cad555027c19cca363906e2647099b505d
