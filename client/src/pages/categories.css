@@ -1,0 +1,25 @@
+
+.searchIconcategory{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 405px;
+    bottom: 489px;
+    background-color: #00573C;
+    border-radius: 48%;
+    padding: 1px; 
+}
+.categoryName{
+    position: absolute;
+    font-size: 35px;
+    color: #fefefe;
+    display: block;
+    left: 10px; 
+    top: 170px;
+    right: 1170px;  
+}
+.boxCard{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
