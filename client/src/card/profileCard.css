@@ -1,0 +1,22 @@
+.Prof-Pic{
+    background-color: #fefefe;
+    border-radius: 50%;
+    width: 205px;
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    left: 575px;
+}
+.profileDetails{
+    position: absolute;
+    margin: auto;
+    top:310px;
+    left: 595px;
+    color: #fefefe;
+    font-size: 18px;
+    
+}
+.username{
+    font-weight: 800;
+    gap: 5px;
+}
