@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import ProductCard from "./productCard";
 import Image1 from "../assets/green.jpg";
 import Image2 from "../assets/red.jpg";
+import Navbar from "../components/Navbar";
 
 function Homepage() {
   const marketNavigation = useNavigate();
@@ -18,19 +19,8 @@ function Homepage() {
 
   return (
     <div className="container">
-      {/* Header with navigation */}
-      <div className="header">
-        <div className="logo">
-          <img className="logo" alt="Anisave Logo" src={Logo} />
-        </div>
-        <div className="navbar">
-          <p>Home</p>
-          <p>Categories</p>
-          <p>Farmers</p>
-          <p>Menu</p>
-          <img src={profilePic} alt="Profile" className="profile-icon" />
-        </div>
-      </div>
+      <Navbar />
+
 
       {/* Search bar */}
       <div className="searchBar">
@@ -64,13 +54,6 @@ function Homepage() {
           marketData={navigateToMarket}
         />
 
-          <ProductCard
-          productImage={Image3}
-          name="Bell Pepper (Red)"
-          qty="980kg"
-          size="Large" 
-          marketData={navigateToMarket}
-        />
       </div>
     </div>
   );

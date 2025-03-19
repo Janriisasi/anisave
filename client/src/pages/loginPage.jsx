@@ -8,8 +8,7 @@ import { toast } from "react-toastify"; // Ensure you have this installed
 const LoginPage = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(""); // ✅ Define errorMessage
-
+  const [errorMessage, setErrorMessage] = useState(""); 
   const [formData, setFormData] = useState({ email: "", password: "" });
 
   const handleChange = (e) => {
@@ -21,7 +20,7 @@ const LoginPage = () => {
     try {
       const res = await axios.post("http://localhost:4000/api/auth/login", formData);
       toast.success(res.data.message);
-      navigate("/homepage"); // Redirect to homepage after login
+      navigate("/home_page"); // Redirect to homepage after login
     } catch (error) {
       setErrorMessage(error.response?.data?.message || "Login failed. Try again.");
     }
