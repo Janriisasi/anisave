@@ -3,8 +3,8 @@ import LoginPage from "./pages/loginPage";
 import HomePage from "./pages/home_page";
 import Categories from "./pages/categories";
 import Farmers from "./pages/farmers";
-import Menu from "./pages/menu";
-import Profile from "./pages/profile";
+import ProfileNav from "./pages/profileNav";
+
 
 
 function App() {
@@ -15,8 +15,7 @@ function App() {
         <Route path="/home_page" element={<HomePage />} />
         <Route path="/categories" element={<Categories/>} />
         <Route path="/farmers" element={<Farmers/>} />
-        <Route path="/menu" element={<Menu/>} />
-        <Route path="/profile" element={<Profile/>} />
+        <Route path="/profileNav" element={<ProfileNav/>} />
       </Routes>
     </Router>
   );
