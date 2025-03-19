@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import CategoryCard from "./categoryCard";
+import Navbar from "../component/Navbar";
+import CategoryCard from "../card/categoryCard";
+import QuestionMark from "../component/question";
 import "./categories.css";
-
 import searchIcon from "../assets/searchIcon.png";
 import vege from "../assets/vegetable.png";
 import Fruit from "../assets/fruits.jpg";
@@ -26,7 +26,7 @@ function Categories({ }) {
       <div className="categoryContainer">
         <p className="categoryName">Category</p>
         </div>
-
+        <QuestionMark/>
       {/* Category cards */}
       <div className="boxCard">
         <CategoryCard type="Vegetables" imageURL={vege} />

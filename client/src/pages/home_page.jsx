@@ -1,14 +1,15 @@
+import { useNavigate } from "react-router-dom";
 import React from "react";
 import "./home_page.css";
-import Logo from "../assets/anisave.svg";
-import profilePic from "../assets/profile.png";
-import searchIcon from "../assets/searchIcon.png";
+import ProductCard from "../card/productCard";
+import QuestionMark from "../component/Question";
+import Navbar from "../component/Navbar";
 import Sort from "../assets/sort.png"
-import { useNavigate } from "react-router-dom";
-import ProductCard from "./productCard";
+import searchIcon from "../assets/searchIcon.png";
 import Image1 from "../assets/green.jpg";
 import Image2 from "../assets/red.jpg";
-import Navbar from "../components/Navbar";
+import Image3 from "../assets/bellred.jpg";
+
 
 function Homepage() {
   const marketNavigation = useNavigate();
@@ -35,6 +36,8 @@ function Homepage() {
       {/* Products */}
       <div className="Product-container">
         <p className="product-title">Products</p>
+
+        <QuestionMark/>
 
         {/* Tomato (Green) */}
         <ProductCard

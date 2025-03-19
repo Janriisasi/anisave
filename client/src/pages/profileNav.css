@@ -1,0 +1,15 @@
+
+.myProducts{
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    margin: auto;
+    color: #fefefe;
+    font-size: 35px;
+}
+.ProductCardDetails{
+    position: absolute;
+    margin: auto;
+    top: 180px;
+    left: 25px;
+}

@@ -10,9 +10,37 @@
     left: 0
 }
 
+.logo{
+    margin-right: 17%;
+    margin-left: -15px;
+    height: 95%;
+}
+.navbar {
+    display: flex;
+    gap: 20px; 
+    margin-right: 25%;
+}
 
+.navbar p {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.profile-icon{
+position: absolute;
+background-color: #fefefe;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+right: 30px;
+bottom: 8px;
+}
 .searchBar{
-    margin-top: 45px;
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    left: 10px;
 
 }
 #search{
@@ -29,11 +57,12 @@
     font-size: 15px;
 }
 .searchIcon{
+    position: relative;
+    margin: auto;
     width: 30px;
     height: 30px;
-    position: absolute;
-    right: 410px;
-    bottom: 503px;
+    left: 905px;
+    top: 105px;
     background-color: #00573C;
     border-radius: 48%;
     padding: 1px; 
@@ -43,15 +72,13 @@
    top: 170px;
    left: 20px;
 }
-.product-title{
-    font-size: 35px;
-    color: #fefefe;
 
-}
 .sortIcon{
     position: absolute;
+    margin: auto;
     top: 190px;
     right: 30px;
     width: 30px;
     height: 30px;
 }
+

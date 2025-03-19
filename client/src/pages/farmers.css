@@ -1,0 +1,26 @@
+.searchIconfarmer{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 420px;
+    bottom: 504px;
+    background-color: #00573C;
+    border-radius: 48%;
+    padding: 1px; 
+}
+.farmerTitle{
+    position: absolute;
+    font-size: 35px;
+    color: #fefefe;
+    display: block;
+    left: 10px; 
+    top: 170px;
+    right: 1170px;  
+}
+.farmBox{
+    position: absolute;
+    left: 20px;
+    top: 220px;
+   
+   
+}
