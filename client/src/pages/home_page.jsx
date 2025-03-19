@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 import ProductCard from "./productCard";
 import Image1 from "../assets/green.jpg";
 import Image2 from "../assets/red.jpg";
-import Image3 from "../assets/bellred.jpg";
 
 function Homepage() {
   const marketNavigation = useNavigate();
