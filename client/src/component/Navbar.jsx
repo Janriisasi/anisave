@@ -14,10 +14,10 @@ function Navbar() {
       <a href="/home_page" className="HomeMenu">Home</a>
       <a href="/categories">Categories</a>
       <a href="/farmers">Farmers</a>
-      <a href="/menu">Menu</a>
+      <a href="/profileNav">Profile</a>
       
       </nav>
-    <a href="/profile">
+    <a href="/profileNav">
   <img src={profilePic} alt="Profile" className="profile-icon" />
     </a>
     

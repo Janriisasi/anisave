@@ -1,0 +1,13 @@
+.edit-container{
+    position: absolute;
+    top: 250px;
+    right: 555px;
+    z-index: 5; 
+    background-color: #033a29;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Edit_Icon{
+    width: 30px; 
+    height: 30px;
+}

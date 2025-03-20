@@ -1,0 +1,14 @@
+
+.add-container{
+    position: fixed;
+    top: 570px;
+    right: 80px;
+    z-index: 5; 
+    background-color: #033a29;
+    padding: 10px;
+    border-radius: 30px;
+}
+.addmark{
+    width: 30px; 
+    height: 30px;
+}
