@@ -1,0 +1,53 @@
+.imageRed{
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    width: 200px;
+    height: 200px;
+}
+.tomatoRedContent{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 295px;
+    left: 560px;
+    color: #fefefe; 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Qty_size{
+    position: absolute;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    color: #fefefe;
+    top: 340px;
+    left: 545px;
+    
+}
+.quantities{
+    background-color: #15927d;
+    border-radius: 40px;
+    padding: 10px;
+}
+.Size_Label{
+    background-color: #15927d;
+    border-radius: 40px;
+    padding: 10px;
+}
+.FarmersCard{
+    position: absolute;
+    margin: auto;
+    top: 450px;
+    left: 20px;
+
+}
+.Farmer_Title{
+    position:absolute;
+    color: #fefefe;
+    font-size: 40px;
+    top: 420px;
+    left: 25px;
+  
+}
