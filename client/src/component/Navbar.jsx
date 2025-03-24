@@ -17,9 +17,6 @@ function Navbar() {
       <a href="/profileNav">Profile</a>
       
       </nav>
-    <a href="/profileNav">
-  <img src={profilePic} alt="Profile" className="profile-icon" />
-    </a>
     
     </div>
   );
