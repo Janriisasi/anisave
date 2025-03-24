@@ -10,6 +10,8 @@ import Grain from "./category/Grains";
 import Herb from "./category/Herbs";
 import InfoProduct from "./infoProduct/infoProduct";
 import SellingProduct from "./pages/sellingProduct";
+import CustomerSupport from "./pages/customerSup";
+import AboutUs from "./pages/aboutUS";
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
         <Route path="/Herbs" element={<Herb />} />
         <Route path="/sellingProduct" element={<SellingProduct/>} />
         <Route path="/infoProduct/:vegetableName" element={<InfoProduct />} />
+         <Route path="/cusomerSup" element={<CustomerSupport />} />
       </Routes>
     </Router>
   );
