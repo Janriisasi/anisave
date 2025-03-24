@@ -5,7 +5,7 @@ function ProfCard({name,email,address,contactNo,profileImage }){
     return(
         <div>
        
-       <img src={profileImage} alt="prof-pic" className="Prof-Pic" />
+       <img src={profileImage } alt="prof-pic" className="Prof-Pic" />
        <div className="profileDetails">
       <center>
         <p className="username">{name}</p>

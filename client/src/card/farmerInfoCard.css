@@ -1,26 +1,23 @@
-.farmer-Container{
+.farmer_container{
     position: relative;
     display: flex;
     margin-bottom: 15px;
     margin-top: 10px;
-    top: 10px;
-    left: 10px;
     color: #050505;
     background-color: #f7f2f2;
-
+    top: 40px;
     width: 1280px;
     height: 100px;
     padding: 10px;
     border-radius: 10px;
-   
 }
-.farmerProf{
+.farmer_Prof{
     position: absolute;
     width: 100px;
     background-color: rgb(34, 180, 132);
     border-radius: 50px;
 }
-.farmer-name{
+.farmer_name{
     position: relative;
     font-size: 40px;
     left: 125px;

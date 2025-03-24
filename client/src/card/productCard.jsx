@@ -1,10 +1,19 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./productCard.css";
 
-function ProductCard({ name, qty, size, marketData, productImage }) {
+function ProductCard({ name, qty, size, productImage }) {
+  const navigatetoFarmers = useNavigate();
+
+  const handleClicktoFarmers= () => {
+    navigatetoFarmers(`/infoProduct/${name}`, {
+      state: { vegetableImage: productImage, qty, size },
+    });
+  };
+
   return (
-    <div className="product-card">
-      <img src={productImage} alt="tomato" className="product-image" />
+    <div className="product-card" onClick={handleClicktoFarmers}>
+      <img src={productImage} alt={name} className="product-image" />
       <div className="name-color">
         <p>{name}</p>
       </div>
@@ -20,9 +29,7 @@ function ProductCard({ name, qty, size, marketData, productImage }) {
       </div>
 
       <div className="market-data">
-        <button className="button-market" onClick={marketData}>
-          View Market Data
-        </button>
+        <button className="buttonMarket">View Market Data</button>
       </div>
     </div>
   );
