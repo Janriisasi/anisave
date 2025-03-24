@@ -4,30 +4,28 @@ import "./home_page.css";
 import ProductCard from "../card/productCard";
 import QuestionMark from "../component/Question";
 import Navbar from "../component/Navbar";
-import Sort from "../assets/sort.png"
+import Sort from "../assets/sort.png";
 import searchIcon from "../assets/searchIcon.png";
 import Image1 from "../assets/green.jpg";
 import Image2 from "../assets/red.jpg";
-import Image3 from "../assets/bellred.jpg";
-
 
 function Homepage() {
-  const marketNavigation = useNavigate();
+  const navigate = useNavigate();
 
   const navigateToMarket = () => {
-    marketNavigation("/marketData");
+    navigate("/marketData");
   };
 
   return (
     <div className="container">
       <Navbar />
 
-
       {/* Search bar */}
       <div className="searchBar">
         <input type="text" id="search" placeholder="Search..." />
         <img src={searchIcon} alt="search" className="searchIcon" />
       </div>
+
       {/* Sort Icon */}
       <button>
         <img src={Sort} alt="Sort icon" className="sortIcon" />
@@ -36,27 +34,25 @@ function Homepage() {
       {/* Products */}
       <div className="Product-container">
         <p className="product-title">Products</p>
-
-        <QuestionMark/>
+        <QuestionMark />
 
         {/* Tomato (Green) */}
         <ProductCard
           productImage={Image1}
-          name="Tomato (Green)"
-          qty="690kg"
-          size="Medium" 
-          marketData={navigateToMarket}
+          name="Tomato(Green)"
+          qty="630kg"
+          size="Medium"
+          marketData={navigateToMarket} 
         />
 
         {/* Tomato (Red) */}
         <ProductCard
           productImage={Image2}
-          name="Tomato (Red)"
+          name="Tomato(Red)"
           qty="590kg"
-          size="Medium" 
-          marketData={navigateToMarket}
+          size="Medium"
+          marketData={navigateToMarket} 
         />
-
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { useParams, useLocation } from "react-router-dom";
 import Navbar from "../component/Navbar";
 import FarmerCard from "../card/farmerCard";
 import QuestionMark from "../component/Question";
@@ -13,7 +14,7 @@ function farmers() {
         <Navbar />
       </div>
        {/* Search bar */}
-            <div className="searchBar-category">
+            <div className="searchBar-farmer">
               <input type="text" id="search" placeholder="Search..." />
               <img src={searchIcon} alt="search" className="searchIconfarmer" />
             </div>
@@ -21,10 +22,8 @@ function farmers() {
             <QuestionMark/>
             {/*Farmer Cards*/} 
              <div className="farmBox">
-            <FarmerCard farmerName="Clyde"/>
-            <FarmerCard farmerName="Mia K."/>
-            <FarmerCard farmerName="Johnny Pig"/>
-            <FarmerCard farmerName="Tiger Commando"/>
+            <FarmerCard farmerName="Clyde Rex Flores"/>
+            <FarmerCard farmerName="Alis Gho"/>
             
             </div>
 

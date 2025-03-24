@@ -1,9 +1,16 @@
+.searchBar-farmer{
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    left: 10px;
+}
 .searchIconfarmer{
     width: 30px;
     height: 30px;
     position: absolute;
-    right: 420px;
-    bottom: 504px;
+   left: 905px;
+   top: 106px;
+    
     background-color: #00573C;
     border-radius: 48%;
     padding: 1px; 

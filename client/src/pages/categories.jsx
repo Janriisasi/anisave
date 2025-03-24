@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "../component/Navbar";
 import CategoryCard from "../card/categoryCard";
-import QuestionMark from "../component/question";
+import QuestionMark from "../component/Question";
 import "./categories.css";
 import searchIcon from "../assets/searchIcon.png";
 import vege from "../assets/vegetable.png";
 import Fruit from "../assets/fruits.jpg";
 import Grains from "../assets/grains.jpg";
 import Herb from "../assets/herb.jpg";
+
 function Categories({ }) {
   return (
     <div className="container-categories">
@@ -32,7 +33,7 @@ function Categories({ }) {
         <CategoryCard type="Vegetables" imageURL={vege} />
         <CategoryCard type="Fruits" imageURL={Fruit} />
         <CategoryCard type="Grains" imageURL={Grains} />
-        <CategoryCard type="Herb" imageURL={Herb} />
+        <CategoryCard type="Herbss" imageURL={Herb} />
         
       </div>
       
