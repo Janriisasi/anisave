@@ -9,7 +9,6 @@ import Fruit from "./category/Fruits";
 import Grain from "./category/Grains";
 import Herb from "./category/Herbs";
 import InfoProduct from "./infoProduct/infoProduct";
-import SellingProduct from "./pages/sellingProduct";
 import CustomerSupport from "./pages/customerSup";
 import AboutUs from "./pages/aboutUS";
 
@@ -18,7 +17,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LoginPage />} />
-        <Route path="/home_page" element={<HomePage />} />
+        <Route path="/homepage" element={<HomePage />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/farmers" element={<Farmers />} />
         <Route path="/profileNav" element={<ProfileNav />} />
@@ -27,7 +26,6 @@ function App() {
         <Route path="/Fruits" element={<Fruit />} />
         <Route path="/Grains" element={<Grain />} />
         <Route path="/Herbs" element={<Herb />} />
-        <Route path="/sellingProduct" element={<SellingProduct/>} />
         <Route path="/infoProduct/:vegetableName" element={<InfoProduct />} />
          <Route path="/cusomerSup" element={<CustomerSupport />} />
       </Routes>
