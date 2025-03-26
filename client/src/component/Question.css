@@ -1,7 +1,7 @@
 .QuestionsMark {
     position: fixed;
-    top: 570px;
-    right: 10px;
+    top: 600px;
+    right: 100px;
     z-index: 5; 
     background-color: #033a29;
     padding: 10px;
