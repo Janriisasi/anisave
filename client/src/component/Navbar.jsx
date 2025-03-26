@@ -11,7 +11,7 @@ function Navbar() {
     </a>
     <nav className="navbar">
     
-      <a href="/homepage" className="HomeMenu">Home</a>
+      <a href="/home_page" className="HomeMenu">Home</a>
       <a href="/categories">Categories</a>
       <a href="/farmers">Farmers</a>
       <a href="/profileNav">Profile</a>
