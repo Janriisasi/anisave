@@ -11,6 +11,7 @@ import Herb from "./category/Herbs";
 import InfoProduct from "./infoProduct/infoProduct";
 import SellingCategory from "./pages/sellingCaterogry";
 import SellingProduct from "./pages/sellingProduct";
+import TermsAndConditions from "./pages/termsandcon";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/infoProduct/:vegetableName" element={<InfoProduct />} />
         <Route path="/sellingCategory" element={<SellingCategory/>} />
         <Route path="/sellingProduct" element={<SellingProduct/>} />
+        <Route path="/termsandcon" element={<TermsAndConditions />} />
       </Routes>
     </Router>
   );
