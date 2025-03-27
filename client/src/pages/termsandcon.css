@@ -1,86 +1,98 @@
-
-/* General Styles */
-
-/* Main Content Layout */
-.content {
+.terms-page {
     display: flex;
-    flex-direction: row;
+    height: 100vh;
+    position: relative;
     align-items: center;
-    justify-content: center; 
-    gap: 20px; 
-    max-width: 800px; 
-    width: 100%;
-}
-/* Logo Container */
-.logo-container {
-    flex: 1; 
+    justify-content: center;
+  }
+  
+  .back-navigation {
+    position: absolute;
+    top: 80px;
+    right: 70rem;
+  }
+  
+  .back-arrow {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .logo-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .logo{
+	width: 300px;
+	margin-right: 200px;
 }
-
-/* Logo Image */
-.logo {
-    width: 200px;
-    height: auto; 
-}
-/* Scrollbar styles for WebKit browsers (Chrome, Safari, Edge) */
-.terms-container::-webkit-scrollbar {
-    width: 8px; 
-}
-
-.terms-container::-webkit-scrollbar-track {
-    background: #D9D9D9;
-    border-radius: 5px; 
-}
-
-/* Scrollbar thumb (the draggable part) */
-.terms-container::-webkit-scrollbar-thumb {
-    background: #00573C; 
-    border-radius: 10px; 
-}
-
-.terms-container::-webkit-scrollbar-thumb:hover {
-    background: #003D2A; 
-}
-
-/* Scrollbar styling for Firefox */
-.terms-container {
-    scrollbar-width: thin; 
-    scrollbar-color: #00573C #D9D9D9; 
-}
-
-.terms-container {
-    flex: 2; 
-    background-color: white; 
-    padding: 20px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    overflow-y: auto; 
-    max-height: 500px; 
-    width: 100%; 
-}
-
-/* Terms & Conditions Heading */
-.terms-container h1 {
-    font-size: 24px; 
-    font-weight: bold; 
-}
-
-/* Last Updated Date */
-.terms-container .update-date {
-    font-size: 12px; 
-    color: gray; 
-}
-
-/* Subheadings */
-.terms-container h2 {
-    font-size: 18px; 
-    font-weight: bold; 
-    margin-top: 10px; 
-}
-/* Paragraphs & Lists */
-.terms-container p,
-.terms-container ul {
-    font-size: 14px;
-    color: #333;
-}
+  
+  .terms-container {
+    background-color: #ffffff;
+    color: #000000;
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .terms-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .terms-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .terms-container::-webkit-scrollbar-thumb {
+    background: #00704A;
+    border-radius: 4px;
+  }
+  
+  .terms-container h1 {
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .update-date {
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  .terms-content {
+    line-height: 1.6;
+  }
+  
+  .terms-content h2 {
+    color: #00704A;
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+  
+  .terms-content ul {
+    padding-left: 20px;
+  }
+  
+  .terms-content li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .terms-page {
+      flex-direction: column;
+    }
+  
+    .logo-container, .terms-container {
+      width: 90%;
+      max-width: 400px;
+    }
+  }
