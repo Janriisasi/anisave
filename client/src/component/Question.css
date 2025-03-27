@@ -1,14 +1,14 @@
-.QuestionsMark {
-    position: fixed;
-    top: 600px;
-    right: 100px;
-    z-index: 5; 
-    background-color: #033a29;
-    padding: 10px;
-    border-radius: 30px;
-  }
-  
-  .QuestionsMark img {
-    width: 30px; 
-    height: 30px;
-  }
+
+.q-container{
+  position: fixed;
+  top: 600px;
+  right: 100px;
+  z-index: 5; 
+  background-color: #033a29;
+  padding: 10px;
+  border-radius: 30px;
+}
+.qmark{
+  width: 30px; 
+  height: 30px;
+}

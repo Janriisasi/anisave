@@ -85,7 +85,7 @@ const LoginPage = () => {
       <div className="termsandconditions">
         <p>
           By agreeing to our
-          <a href="#"> Term and Conditions</a>, you acknowledge and accept the rules and guidelines governing the use of our platform.
+          <a href="/termsandcon"> Term and Conditions</a>, you acknowledge and accept the rules and guidelines governing the use of our platform.
         </p>
       </div>
     </div>

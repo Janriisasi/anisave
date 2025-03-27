@@ -11,6 +11,7 @@ import Herb from "./category/Herbs";
 import InfoProduct from "./infoProduct/infoProduct";
 import SellingCategory from "./pages/sellingCaterogry";
 import SellingProduct from "./pages/sellingProduct";
+import CustomerSupport from  "./pages/customerSup";
 import TermsAndConditions from "./pages/termsandcon";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/infoProduct/:vegetableName" element={<InfoProduct />} />
         <Route path="/sellingCategory" element={<SellingCategory/>} />
         <Route path="/sellingProduct" element={<SellingProduct/>} />
+        <Route path="/customersupport" element={<CustomerSupport />} />
         <Route path="/termsandcon" element={<TermsAndConditions />} />
       </Routes>
     </Router>
